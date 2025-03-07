@@ -1,3 +1,3 @@
-export function somar(a, b) {
+export function multiplicar(a, b) {
   return a * b;
 }
