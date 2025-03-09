@@ -3,6 +3,7 @@ import { subtrair } from "./subtrair.js";
 import { dividir } from "./dividir.js";
 import { multiplicar } from "./multiplicar.js";
 import { inverter } from "./inverter.js";
+import { gerarNumerosPares } from "./pares.js";
 
 // Atividade 1
 const operacao = "+";
@@ -34,3 +35,16 @@ console.log("Atividade 2. Números originais: " + numInverte);
 let resultadoInverte = inverter(numInverte);
 
 console.log("Atividade 2. Números invertidos: " + resultadoInverte);
+
+// Atividade 3
+
+let N = 6;
+
+let numerosPares = gerarNumerosPares(N);
+
+console.log(
+  "Atividade 3. Gerando numeros pares de " +
+    N +
+    " números pares são : " +
+    numerosPares
+);
