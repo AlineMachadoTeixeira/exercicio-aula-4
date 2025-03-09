@@ -38,12 +38,12 @@ console.log("Atividade 2. Números invertidos: " + resultadoInverte);
 
 // Atividade 3
 
-let N = 6;
+let N = 4;
 
 let numerosPares = gerarNumerosPares(N);
 
 console.log(
-  "Atividade 3. Gerando numeros pares de " +
+  "Atividade 3. Gerando uma Lista de  " +
     N +
     " números pares são : " +
     numerosPares
