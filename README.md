@@ -19,6 +19,14 @@ Com base na aula sobre arrray.
   Armazene o resultado em um novo array.
 - Bônus: chamar a operação por meio de uma função em arquivo externo
 
+## Atividade 3:
+
+Gerar uma Lista de Números Pares
+
+- Objetivo: Utilizar um loop for para gerar um array contendo os primeiros N números pares.
+- Descrição: Dado um número N, use um loop for para criar um array que contém os primeiros N números pares (começando de 2). Imprima o array resultante.
+- Bônus: chamar a operação por meio de uma função em arquivo externo
+
 ## CMD / Terminal
 
 - npm init -y
