@@ -2,7 +2,9 @@ import { somar } from "./somar.js";
 import { subtrair } from "./subtrair.js";
 import { dividir } from "./dividir.js";
 import { multiplicar } from "./multiplicar.js";
+import { inverter } from "./inverter.js";
 
+// Atividade 1
 const operacao = "+";
 let num1 = 10;
 let num2 = 5;
@@ -22,6 +24,13 @@ if (operacao == "+") {
   resultado = "Operação inválida!";
 }
 
-console.log(resultado);
+console.log("Atividade 1. Resultado da operação: " + resultado);
 
-console.log("OI");
+// Atividade 2
+let numInverte = [1, 2, 3, 4, 5];
+
+console.log("Atividade 2. Números originais: " + numInverte);
+
+let resultadoInverte = inverter(numInverte);
+
+console.log("Atividade 2. Números invertidos: " + resultadoInverte);
